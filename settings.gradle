@@ -1,0 +1,2 @@
+rootProject.name = "P12_PS"
+include ':app'
