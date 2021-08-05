@@ -100,8 +100,8 @@ public class AddActivity extends AppCompatActivity {
                         extender.addAction(action);
                         extender.addAction(action2);
 
-                        String text = getString(R.string.basic_notify_msg);
-                        String title = getString(R.string.notification_title);
+                        String text = etName.getText().toString();
+                        String title = etDesc.getText().toString();
 
                         NotificationCompat.Builder builder = new
                                 NotificationCompat.Builder(AddActivity.this, "default");
